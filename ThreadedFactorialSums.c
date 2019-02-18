@@ -1,7 +1,7 @@
 //Thread use example program that splits odd and even threads (8 total)
 //to perform different tasks and join again in main. 
 //All results are passed from the thread to main and printed there.
-//To compile: gcc t1.c -lpthread
+//To compile: gcc ThreadedFactorialSums.c -lpthread
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
